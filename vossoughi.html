@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vossoughi.css">
+    <style>
+        body{
+            height: 100dvh;
+            flex-direction: column;
+            width: 100dvw;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        header{
+            width: 100%;
+            background-color: rgb(10, 10, 10);
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+        ul li{
+            color: rgb(223, 223, 223);
+            user-select: none;
+            cursor: pointer;
+            box-sizing: border-box;
+            padding: 10px 30px 10px 30px;
+        }
+        ul li:hover{
+            background-color: rgb(185, 185, 185);
+            color: rgb(17, 17, 17);
+        }
+        .nigga{
+            height: 33px;
+            border-radius: 8px;
+            padding-left: 6px;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            outline: none;
+        }
+        .fuhh{
+            height: 37px;
+            width: 37px;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>LOGO</li>
+            <li>Home</li>
+            <li>Nigga</li>
+            <li>fuhh</li>
+            <form action="#">
+                <input class="nigga" type="text" placeholder="Fuhhnigga...">
+                <input class="fuhh" type="submit" value="Go">
+            </form>
+        </ul>
+    </header>
+</body>
+</html>
